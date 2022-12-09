@@ -14,8 +14,6 @@ function App() {
   const [clocks, setClocks] = useState([]);
   const [errors, setErrors] = useState(false);
 
-  const className = cn("container", "clock-list");
-
   const handleChange = ({ target }) => {
     setErrors(false);
     const { name, value } = target;
